@@ -1,0 +1,346 @@
+html {
+scroll-behavior: smooth;
+}
+
+.body-container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+body {
+font-family: Arial;
+}
+
+nav {
+padding: 20px;
+background-color: #b7a1b5;
+}
+
+header {
+grid-column: span 3;
+padding: 30px;
+text-align: center;
+font-size: 1.4em;
+background-color: #518899;
+color: #fff;
+border-bottom: rgba(88, 88, 88, 0.733) solid .25em;
+}
+
+main {
+flex: 1;
+padding: 20px;
+background: linear-gradient(25deg, #C4B3CC 0%, #C5DDE5 60%);
+}
+
+aside {
+padding: 20px;
+}
+
+footer {
+grid-column: span 3;
+padding: 30px;
+text-align: center;
+font-size: 1.4em;
+background-color: #518899;
+color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+    .body-container {
+        display: grid;
+        grid-template-columns: 125px 1fr 125px;
+        grid-template-rows: auto 1fr auto;
+    }
+    nav {
+        border-right: rgba(88, 88, 88, 0.733) solid .20em;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    nav li {
+        background: linear-gradient(90deg, #b7a1b5 0%, #C5DDE5 85%);
+        padding: .5em;
+        margin: .25em;
+        width: 100%;
+        border-radius: 0 45% 45% 0;
+    }
+    nav li:hover {
+        background: linear-gradient(90deg, #b7a1b5 0%, #b7a1b5 60%);
+    }
+    nav li a {
+        display: block;
+        padding: 8px .75em;
+        text-decoration: none;
+        color: rgba(88, 88, 88);
+    }
+    nav li a:hover {
+        color: rgba(25, 25, 25)
+    }
+    aside {
+        border-left: rgba(88, 88, 88, 0.733) solid .20em;
+        background-color: #b7a1b5;
+    }
+    aside ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    aside li {
+        background: linear-gradient(-90deg, #b7a1b5 0%, #C5DDE5 85%);
+        padding: .5em;
+        margin: .25em;
+        width: 100%;
+        border-radius: 45% 0% 0% 45%;
+    }
+    aside li:hover {
+        background: linear-gradient(90deg, #b7a1b5 0%, #b7a1b5 60%);
+    }
+    aside li a {
+        display: block;
+        padding: 8px .75em;
+        text-decoration: none;
+        color: rgba(88, 88, 88);
+    }
+    aside li a:hover {
+        color: rgba(25, 25, 25)
+    }
+    footer {
+        border-top: rgba(88, 88, 88, 0.733) solid .25em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background: linear-gradient(180deg, #C4B3CC 0%, #C5DDE5 100%);
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: hsl(282, 7%, 52%);
+    }
+    nav li a:hover {
+        color: hsl(195, 31%, 31%);
+    }
+    aside {
+        background-color: #518899;
+        border-top: rgba(88, 88, 88, 0.733) solid .25em;
+    }
+    aside ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    aside li {
+        float: left;
+    }
+    aside li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #C5DDE5;
+    }
+    aside li a:hover {
+        color: #C4B3CC;
+    }
+}
+
+
+h1 {
+margin: 1em;
+font-size: 1.4em;
+font-weight: bold;
+text-align: center;
+}
+
+.tealblue {
+color: #518899;
+}
+
+.bold {
+font-weight: bold;
+}
+
+/** Circular Menu Button Stylization **/
+.circular-menu {
+position: fixed;
+bottom: 1em;
+right: auto;
+left: 1em;
+z-index: 1;
+}
+
+.circular-menu .floating-btn {
+display: block;
+width: 3.5em;
+height: 3.5em;
+border-radius: 50%;
+background-color: hsl(194, 100%, 76%);
+box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, .26);  
+color: hsl(195, 31%, 31%);
+text-align: center;
+line-height: 3.9;
+cursor: pointer;
+outline: 0;
+padding-top: 1em;
+}
+
+.circular-menu.active .floating-btn {
+box-shadow: inset 0 0 3px hsla(0, 0%, 0%, .3);
+}
+
+.circular-menu .floating-btn:active {
+box-shadow: 0 4px 8px 0 hsla(0, 0%, 0%, .4);
+}
+
+.circular-menu .floating-btn i {
+font-size: 1.3em;
+transition: transform .2s;
+}
+
+.circular-menu.active .floating-btn i {
+transform: rotate(-45deg);
+}
+
+.circular-menu:after {
+display: block;
+content: ' ';
+width: 3.5em;
+height: 3.5em;
+border-radius: 50%;
+position: absolute;
+top: 0;
+right: 0;
+z-index: -2;
+background-color: hsl(194, 100%, 76%);
+transition: all .3s ease;
+}
+
+.circular-menu.active:after {
+transform: scale3d(5.5, 5.5, 1);
+transition-timing-function: cubic-bezier(.68, 1.55, .265, 1);
+}
+
+.circular-menu .items-wrapper {
+padding: 0;
+margin: 0;
+}
+
+.circular-menu .menu-item {
+position: absolute;
+top: .2em;
+right: .2em;
+z-index: -1;
+display: block;
+text-decoration: none;
+color: hsl(195, 31%, 31%);
+font-size: 1em;
+width: 3em;
+height: 3em;
+border-radius: 50%;
+text-align: center;
+line-height: 3;
+background-color: hsla(0,0%,0%,.1);
+transition: transform .3s ease, background .2s ease;
+}
+
+.circular-menu .menu-item:hover {
+background-color: hsla(0,0%,0%,.3);
+}
+
+.circular-menu.active .menu-item {
+transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.circular-menu.active .menu-item:nth-child(1) {
+transform: translate3d(-1em,-7em,0);
+}
+
+.circular-menu.active .menu-item:nth-child(2) {
+transform: translate3d(3.5em,-6.3em,0);
+}
+
+.circular-menu.active .menu-item:nth-child(3) {
+transform: translate3d(6.5em,-3.2em,0);
+}
+
+.circular-menu.active .menu-item:nth-child(4) {
+transform: translate3d(7em,1em,0);
+}
+
+/** Back To Top Button Stylization **/
+.backToTop {
+position: fixed;
+bottom: 1em;
+right: 1em;
+}
+.backToTop .icon {
+display: block;
+width: 3.5em;
+height: 3.5em;
+border-radius: 50%;
+background-color: hsl(194, 100%, 76%);
+box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, .26);  
+color: hsl(195, 31%, 31%);
+text-align: center;
+line-height: 3.9;
+cursor: pointer;
+outline: 0;
+padding-top: 1em;
+}
+.backToTop .icon i {
+font-size: 1.3em;
+cursor: pointer;
+}
+
+/** Form Stylization **/
+form {
+background-color: #518899;
+color: #fff;
+text-align: center;
+padding: 1em;
+}
+input[type=text] {
+background: linear-gradient(180deg, #C4B3CC 0%, #C5DDE5 50%);
+color: #000;
+border: none;
+border-bottom: .35em solid #C4B3CC;
+border-bottom-left-radius: 15%;
+border-bottom-right-radius: 15%;
+width: 80%;
+height: 2em;
+box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, .3);
+margin: 1em;
+}
+input[type=submit]{
+background: linear-gradient(180deg, #C4B3CC 0%, #C5DDE5 100%);
+border: none;
+color: black;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+width: 80%;
+box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, .3);
+font-weight: bold;
+}
+input[type=submit]:hover {
+background: linear-gradient(-45deg, #C4B3CC 0%, #C5DDE5 100%);
+}
