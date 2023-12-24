@@ -11,7 +11,10 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
 
 <?php include '_includes/functions/circular-menu.html';?>
 
-<header>Mavis</header>
+<header>
+<img src="assets/img/mavisstorm_logo.png">
+<h1>Mavis Storm</h1>
+</header>
 
 <nav>
     <ul>
