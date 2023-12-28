@@ -26,7 +26,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
 </nav>
 
 <main>
-<h1>Mavis</h1>
+<h1>Mavis Storm</h1>
 <!---->
 <p>This is a site where I can share my daughter's photos to our family.</p>
 <!---->
