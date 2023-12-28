@@ -10,7 +10,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
 <html>
 <?php include '_includes/head/head.html';?>
 
-<?php //include '_includes/secure.php';?>
+<?php include '_includes/secure.php';?>
 
-<?php include 'home.php';?>
+<?php //include 'home.php';?>
 </html>

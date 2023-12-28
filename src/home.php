@@ -26,42 +26,9 @@ if (isset($_SERVER['HTTP_X_FORWARDED_URL']) && strpos($_SERVER['HTTP_X_FORWARDED
 </nav>
 
 <main>
-<h1 id="Jan">Mavis</h1>
+<h1>Mavis</h1>
 <!---->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius assumenda nobis est, at quis numquam nesciunt magnam, esse culpa excepturi consequatur consequuntur eaque, ex dignissimos sit minus vel voluptas.</p>
+<p>This is a site where I can share my daughter's photos to our family.</p>
 <!---->
 </main>
 
